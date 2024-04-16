@@ -13,3 +13,21 @@ pode_ir(icmc1, icmc4, 116.59).
 pode_ir(icmc1, icmc3, 93.84).
 pode_ir(icmc3, biblioICMC, 53.17).
 pode_ir(icmc1, biblioICMC, 42.20).
+
+
+viagemEntre(Origem, Destino, Caminho, Custo):- caminho(Origem, [Destino], Caminho), calculaCusto(Caminho, Custo).
+
+caminho(I, [I|Cam], [I|Cam]):- !.
+caminho(I, [UltEst|CamAteAgora], Cam):- 
+            pode_ir(X, UltEst, _), 
+            not(pertence(X,CamAteAgora)), 
+            caminho(I, [X,UltEst|CamAteAgora], Cam).
+
+calculaCusto([_], 0).
+calculaCusto([X|[Y]], Custo):- pode_ir(X,Y,Custo).
+calculaCusto([X, Y|Cauda], Soma):- pode_ir(X,Y, Custo), calculaCusto([Y|Cauda], CustoCauda), Soma is Custo + CustoCauda.
+
+%pertence(X, Lista).
+pertence(X, [X|_]):- !.
+pertence(X, [Y| Lista]):- X \= Y, pertence(X, Lista).
+
