@@ -1,5 +1,6 @@
 % Mapeamento da Area 1 incluindo trechos sem acessibilidade
 
+%pode_ir(? Origem, ? Destino, - Custo)
 pode_ir(onibus, saidaArq, 107.37).
 pode_ir(onibus, cefer, 323.13).
 pode_ir(cefer, restaurante, 178.46).

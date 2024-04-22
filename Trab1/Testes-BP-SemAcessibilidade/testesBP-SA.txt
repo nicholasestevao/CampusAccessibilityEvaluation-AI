@@ -1,0 +1,44 @@
+
+% viagemEntre(Origem, Destino, Caminho, Custo):
+
+viagemEntre(onibus, restaurante, X, Y).
+viagemEntre(saidaArq,restaurante, X, Y).
+viagemEntre(cefer,restaurante, X, Y).
+viagemEntre(biblioEESC,restaurante, X, Y).
+viagemEntre(biblioICMC,restaurante, X, Y).
+viagemEntre(matematica,restaurante, X, Y).
+viagemEntre(saidaFisica,restaurante, X, Y).
+viagemEntre(ifsc,restaurante, X, Y).
+viagemEntre(e1,restaurante, X, Y).
+viagemEntre(campo,restaurante, X, Y).
+viagemEntre(saidaProd,restaurante, X, Y).
+viagemEntre(iqsc,restaurante, X, Y).
+viagemEntre(sel,restaurante, X, Y).
+
+viagemEntre(onibus, biblioEESC, X, Y).
+viagemEntre(saidaArq,biblioEESC, X, Y).
+viagemEntre(cefer,biblioEESC, X, Y).
+viagemEntre(restaurante,biblioEESC, X, Y).
+viagemEntre(biblioICMC,biblioEESC, X, Y).
+viagemEntre(matematica,biblioEESC, X, Y).
+viagemEntre(saidaFisica,biblioEESC, X, Y).
+viagemEntre(ifsc,biblioEESC, X, Y).
+viagemEntre(e1,biblioEESC, X, Y).
+viagemEntre(campo,biblioEESC, X, Y).
+viagemEntre(saidaProd,biblioEESC, X, Y).
+viagemEntre(iqsc,biblioEESC, X, Y).
+viagemEntre(sel,biblioEESC, X, Y).
+
+viagemEntre(onibus, saidaProd, X, Y).
+viagemEntre(saidaArq,saidaProd, X, Y).
+viagemEntre(cefer,saidaProd, X, Y).
+viagemEntre(biblioEESC,saidaProd, X, Y).
+viagemEntre(biblioICMC,saidaProd, X, Y).
+viagemEntre(matematica,saidaProd, X, Y).
+viagemEntre(saidaFisica,saidaProd, X, Y).
+viagemEntre(ifsc,saidaProd, X, Y).
+viagemEntre(e1,saidaProd, X, Y).
+viagemEntre(campo,saidaProd, X, Y).
+viagemEntre(restaurante,saidaProd, X, Y).
+viagemEntre(iqsc,saidaProd, X, Y).
+viagemEntre(sel,saidaProd, X, Y).
