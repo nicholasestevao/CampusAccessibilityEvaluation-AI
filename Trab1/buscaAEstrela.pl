@@ -1,3 +1,9 @@
+:- [mapaSemAcessibilidade].
+
+:- [heuristicaDestino1].
+:- [heuristicaDestino2].
+:- [heuristicaDestino3].
+
 % Definindo a estrutura de dados da fila de prioridades
 % fila_vazia([]) define que uma lista vazia é uma fila vazia.
 % inserir_na_fila(Estado, [], [Estado]) define que inserir um Estado em uma fila vazia
@@ -35,7 +41,7 @@ a_estrela([(Meta, Caminho, Custo, _)|_], _, Meta, Caminho, Custo).
 a_estrela([(No, Caminho, Custo, _)|Resto], ConjuntoFechado, Meta, CaminhoFinal, CustoFinal) :-
     findall(
         (Filho, [Filho|Caminho], NovoCusto, CustoTotal),
-        (podeir(No, Filho, CustoAresta), \+ member(Filho, Caminho), 
+        (podeIr(No, Filho, CustoAresta), \+ member(Filho, Caminho), 
             NovoCusto is Custo + CustoAresta, heuristica(Filho, Meta, Heuristica), 
             CustoTotal is NovoCusto + Heuristica),
         Filhos
