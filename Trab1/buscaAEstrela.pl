@@ -1,8 +1,8 @@
 :- [mapaSemAcessibilidade].
 
-:- [heuristicaDestino1].
-:- [heuristicaDestino2].
-:- [heuristicaDestino3].
+:- [heuristicaBibliotecaEESCsemAcessibilidade].
+:- [heuristicaBibliotecaICMCsemAcessibilidade].
+:- [heuristicaRestaurantesemAcessibilidade].
 
 % Definindo a estrutura de dados da fila de prioridades
 % fila_vazia([]) define que uma lista vazia é uma fila vazia.
