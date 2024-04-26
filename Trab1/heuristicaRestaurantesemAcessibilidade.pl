@@ -11,8 +11,11 @@ heuristica(cefer, restaurante, 92.06).
 heuristica(biblioICMC, restaurante, 236.68).
 heuristica(restaurante, restaurante, 0).
 heuristica(ifsc, restaurante, 269.30).
-heuristica(iqsq, restaurante, 214.90).
+heuristica(iqsc, restaurante, 214.90).
 heuristica(biblioEESC, restaurante, 116.81).
-heuristica(campo, restaurante, 157.39).
-heuristica(sel, restaurante, 81.61).
+heuristica(campoEscada2, restaurante, 107.99).
+heuristica(sel, restaurante, 103.69).
 heuristica(e1, restaurante, 195.30).
+heuristica(degrauRestaurante, restaurante, 46.77).
+heuristica(escadaSel, restaurante, 123.11).
+heuristica(campoEscada1, restaurante, 230.57).

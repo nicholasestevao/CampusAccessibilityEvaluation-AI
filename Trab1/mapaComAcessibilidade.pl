@@ -22,12 +22,12 @@ podeIr(X,Z, C) :- pode_ir(X,Z, C) | pode_ir(Z,X, C).
 %pode_ir(e1, restaurante, 196.54).
 %pode_ir(e1, biblioEESC, 205.57).
 %pode_ir(e1, biblioICMC, 253.22).
-%pode_ir(e1, campo, 306.05). %medida ate o topo da escada para descer pro campo
+%pode_ir(e1, campoEscada2, 306.05). %medida ate o topo da escada para descer pro campoEscada2
 %pode_ir(saidaProd, ifsc, 345.26).
-%pode_ir(iqsc, campo, 288.27). %medida ate o topo da escada %para descer pro campo
-%pode_ir(campo, restaurante, 119.81).
+%pode_ir(iqsc, campoEscada2, 288.27). %medida ate o topo da escada %para descer pro campoEscada2
+%pode_ir(campoEscada2, restaurante, 119.81).
 %pode_ir(sel, iqsc, 255.64).
-%pode_ir(sel, campo, 95.78).
+%pode_ir(sel, campoEscada2, 95.78).
 %pode_ir(sel, restaurante, 124.68). %passando pelo degrau do lado do bandeco
 
 

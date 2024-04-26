@@ -11,8 +11,11 @@ heuristica(cefer, biblioEESC, 210.57).
 heuristica(biblioICMC, biblioEESC, 125.52).
 heuristica(restaurante, biblioEESC, 116.81).
 heuristica(ifsc, biblioEESC, 207.05).
-heuristica(iqsq, biblioEESC, 336.91).
+heuristica(iqsc, biblioEESC, 336.91).
 heuristica(biblioEESC, biblioEESC, 0).
-heuristica(campo, biblioEESC, 274.78).
+heuristica(campoEscada2, biblioEESC, 274.78).
 heuristica(sel, biblioEESC, 215.18).
 heuristica(e1, biblioEESC, 124.07).
+heuristica(degrauRestaurante, biblioEESC, 139.23).
+heuristica(escadaSel, biblioEESC, 187.94).
+heuristica(campoEscada1, biblioEESC, 328.5).
