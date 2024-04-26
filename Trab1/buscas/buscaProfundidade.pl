@@ -1,5 +1,6 @@
-%Busca em profundidade 
+:- [mapaSemAcessibilidade].
 
+%Busca em profundidade 
 viagemEntre(Origem, Destino, Caminho, Custo):- caminho(Origem, [Destino], Caminho), calculaCusto(Caminho, Custo).
 
 caminho(I, [I|Cam], [I|Cam]):- !.

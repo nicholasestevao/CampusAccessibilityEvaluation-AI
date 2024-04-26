@@ -10,9 +10,11 @@ heuristica(entradaprod, biblioICMC, 428.44).
 heuristica(cefer,biblioICMC, 319.84).
 heuristica(biblioICMC,biblioICMC, 0).
 heuristica(restaurante, biblioICMC, 236.68).
-heuristica(ifsc, biblioICMC, 256.72).
-heuristica(iqsq, biblioICMC, 451.11).
+heuristica(iqsc, biblioICMC, 451.11).
 heuristica(biblioEESC, biblioICMC,125.52).
-heuristica(campo, biblioICMC, 398.37).
+heuristica(campoEscada2, biblioICMC, 398.37).
 heuristica(sel, biblioICMC, 335.50).
 heuristica(e1,biblioICMC, 188.50).
+heuristica(degrauRestaurante, biblioICMC, 270.57).
+heuristica(escadaSel, biblioICMC, 317.14).
+heuristica(campoEscada1, biblioICMC, 457.79).

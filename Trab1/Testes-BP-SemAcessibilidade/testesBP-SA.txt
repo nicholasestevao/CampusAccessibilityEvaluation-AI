@@ -7,6 +7,9 @@ viagemEntre(cefer,restaurante, X, Y).
 viagemEntre(biblioEESC,restaurante, X, Y).
 viagemEntre(biblioICMC,restaurante, X, Y).
 viagemEntre(matematica,restaurante, X, Y).
+viagemEntre(saidaFisica,restaurante, X, Y).
+viagemEntre(campoEscada2,restaurante, X, Y).
+viagemEntre(saidaProd,restaurante, X, Y).
 viagemEntre(campoEscada2,restaurante, X, Y).
 viagemEntre(iqsc,restaurante, X, Y).
 viagemEntre(sel,restaurante, X, Y).
