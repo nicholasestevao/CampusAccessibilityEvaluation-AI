@@ -1,33 +1,32 @@
 
-% viagemEntre(Origem, Destino, Caminho, Custo):
+% a_estrela(Origem, Destino, Caminho, Custo):
 
-viagemEntre(onibus, restaurante, X, Y).
-viagemEntre(saidaArq,restaurante, X, Y).
-viagemEntre(cefer,restaurante, X, Y).
-viagemEntre(biblioEESC,restaurante, X, Y).
-viagemEntre(biblioICMC,restaurante, X, Y).
-viagemEntre(matematica,restaurante, X, Y).
-viagemEntre(campoEscada2,restaurante, X, Y).
-viagemEntre(iqsc,restaurante, X, Y).
-viagemEntre(sel,restaurante, X, Y).
+a_estrela(onibus, restaurante, X, C).
+a_estrela(saidaArq,restaurante, X, C).
+a_estrela(cefer,restaurante, X, C).
+a_estrela(biblioEESC,restaurante, X, C).
+a_estrela(biblioICMC,restaurante, X, C).
+a_estrela(matematica,restaurante, X, C).
+a_estrela(campoEscada2,restaurante, X, C).
+a_estrela(iqsc,restaurante, X, C).
+a_estrela(sel,restaurante, X, C).
 
-viagemEntre(onibus, biblioEESC, X, Y).
-viagemEntre(saidaArq,biblioEESC, X, Y).
-viagemEntre(cefer,biblioEESC, X, Y).
-viagemEntre(restaurante,biblioEESC, X, Y).
-viagemEntre(biblioICMC,biblioEESC, X, Y).
-viagemEntre(matematica,biblioEESC, X, Y).
-viagemEntre(campoEscada2,biblioEESC, X, Y).
-viagemEntre(iqsc,biblioEESC, X, Y).
-viagemEntre(sel,biblioEESC, X, Y).
+a_estrela(onibus, biblioEESC, X, C).
+a_estrela(saidaArq,biblioEESC, X, C).
+a_estrela(cefer,biblioEESC, X, C).
+a_estrela(restaurante,biblioEESC, X, C).
+a_estrela(biblioICMC,biblioEESC, X, C).
+a_estrela(matematica,biblioEESC, X, C).
+a_estrela(campoEscada2,biblioEESC, X, C).
+a_estrela(iqsc,biblioEESC, X, C).
+a_estrela(sel,biblioEESC, X, C).
 
-viagemEntre(onibus, saidaProd, X, Y).
-viagemEntre(saidaArq,saidaProd, X, Y).
-viagemEntre(cefer,saidaProd, X, Y).
-viagemEntre(biblioEESC,saidaProd, X, Y).
-viagemEntre(biblioICMC,saidaProd, X, Y).
-viagemEntre(matematica,saidaProd, X, Y).
-viagemEntre(campoEscada2,saidaProd, X, Y).
-viagemEntre(restaurante,saidaProd, X, Y).
-viagemEntre(iqsc,saidaProd, X, Y).
-viagemEntre(sel,saidaProd, X, Y).
+a_estrela(onibus, biblioICMC, X, C).
+a_estrela(saidaArq,biblioICMC, X, C).
+a_estrela(cefer,biblioICMC, X, C).
+a_estrela(biblioEESC,biblioICMC, X, C).
+a_estrela(matematica,biblioICMC, X, C).
+a_estrela(campoEscada2,biblioICMC, X, C).
+a_estrela(restaurante,biblioICMC, X, C).
+a_estrela(iqsc,biblioICMC, X, C).
+a_estrela(sel,biblioICMC, X, C).
