@@ -10,6 +10,7 @@ viagemEntre(matematica,restaurante, X, Y).
 viagemEntre(saidaFisica,restaurante, X, Y).
 viagemEntre(campoEscada2,restaurante, X, Y).
 viagemEntre(saidaProd,restaurante, X, Y).
+viagemEntre(campoEscada2,restaurante, X, Y).
 viagemEntre(iqsc,restaurante, X, Y).
 viagemEntre(sel,restaurante, X, Y).
 
@@ -19,11 +20,7 @@ viagemEntre(cefer,biblioEESC, X, Y).
 viagemEntre(restaurante,biblioEESC, X, Y).
 viagemEntre(biblioICMC,biblioEESC, X, Y).
 viagemEntre(matematica,biblioEESC, X, Y).
-viagemEntre(saidaFisica,biblioEESC, X, Y).
-viagemEntre(ifsc,biblioEESC, X, Y).
-viagemEntre(e1,biblioEESC, X, Y).
-viagemEntre(campo,biblioEESC, X, Y).
-viagemEntre(saidaProd,biblioEESC, X, Y).
+viagemEntre(campoEscada2,biblioEESC, X, Y).
 viagemEntre(iqsc,biblioEESC, X, Y).
 viagemEntre(sel,biblioEESC, X, Y).
 

@@ -9,7 +9,7 @@ pode_ir(saidaArq, onibus, 107.37).
         pode_ir(cefer, campoEscada1, 144.01).
 
 pode_ir(saidaArq, iqsc, 305.76).
-    pode_ir(iqsc, cefer, 216.67). %medida passando pelo centrinho
+    pode_ir(iqsc, cefer, 200.47). %medida passando pelo centrinho
     pode_ir(iqsc, campoEscada1, 89.52).
         pode_ir(campoEscada1, campoEscada2, 225.29). %Por dentro do campoEscada2
             pode_ir(campoEscada2, degrauRestaurante, 80.65).
