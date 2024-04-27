@@ -1,8 +1,8 @@
-:- [mapaSemAcessibilidade].
+:- consult('../mapas/mapaComAcessibilidade.pl').
 
-:- [heuristicaBibliotecaEESCsemAcessibilidade].
-:- [heuristicaBibliotecaICMCsemAcessibilidade].
-:- [heuristicaRestaurantesemAcessibilidade].
+:- consult('../heuristicas/heuristicaBibliotecaEESC.pl').
+:- consult('../heuristicas/heuristicaBibliotecaICMC.pl').
+:- consult('../heuristicas/heuristicaRestaurante.pl').
 
 % Definindo a estrutura de dados da fila de prioridades
 % fila_vazia([]) define que uma lista vazia é uma fila vazia.

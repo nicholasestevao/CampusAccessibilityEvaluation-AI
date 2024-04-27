@@ -1,4 +1,4 @@
-:- [mapaSemAcessibilidade].
+:- consult('../mapas/mapaComAcessibilidade.pl').
 
 %Busca em profundidade 
 viagemEntre(Origem, Destino, Caminho, Custo):- caminho(Origem, [Destino], Caminho), calculaCusto(Caminho, Custo).
