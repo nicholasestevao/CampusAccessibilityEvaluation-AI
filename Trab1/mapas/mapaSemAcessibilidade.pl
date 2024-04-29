@@ -15,7 +15,7 @@ pode_ir(saidaArq, iqsc, 305.76).
             pode_ir(campoEscada2, degrauRestaurante, 80.65).
             pode_ir(campoEscada2, escadaSel, 94.78).
                 pode_ir(escadaSel, sel, 21.2).
-                pode_ir(escadaSel, restaurante, 168.98).
+                pode_ir(escadaSel, degrauRestaurante, 68.39).
             pode_ir(campoEscada2, restaurante, 134.53).
 
 pode_ir(matematica, biblioICMC, 196.85).
