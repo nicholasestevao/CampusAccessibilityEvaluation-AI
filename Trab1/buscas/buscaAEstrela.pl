@@ -1,4 +1,4 @@
-:- consult('../mapas/mapaComAcessibilidade.pl').
+:- consult('../mapas/mapaSemAcessibilidade.pl').
 
 :- consult('../heuristicas/heuristicaBibliotecaEESC.pl').
 :- consult('../heuristicas/heuristicaBibliotecaICMC.pl').
